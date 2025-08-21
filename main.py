@@ -21,6 +21,7 @@ class StakeSpider(scrapy.Spider):
 
             dia_jogo = response.css('div.KambiBC-event-item__match-clock-container > div > span.KambiBC-event-item__start-time--date::txt').get() #Verificar
             hora_jogo = response.css('div.KambiBC-sandwich-filter__event-detail-container > div.KambiBC-sandwich-filter__event-detail-top > div.KambiBC-event-item__match-clock-container > div > span.KambiBC-event-item__start-time--time::txt').get() #Verificar
+            #teste
 
 #sc-fqkvVR cyiQDV: classe usada para o nome dos times dentro dos quadrados(está em ordem)
 #sc-kAyceB dwQxLC: classe usada para as porcentagens
